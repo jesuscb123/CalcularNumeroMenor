@@ -1,12 +1,8 @@
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
         int numero = pedirNumero("Ingresa el número de valores enteros que quieres");
         int numeroMenor = pedirVariosNumeros(numero);
         System.out.println("El número" + " " + numeroMenor + " " + "es" + " " + (numeroMenor < 10 ? "menor de diez" : "menor de diez"));
